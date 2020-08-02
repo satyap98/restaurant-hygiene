@@ -64,7 +64,7 @@ app.layout = html.Div(children=[
         dcc.Dropdown(
                 id='cuisine_type',
                 options=[{'label': i, 'value': i} for i in unique_cuisines],
-                value='Taiwanese',
+                value='Indian',
                 style={'width': '50%'},
                 searchable=True,
                 clearable=True,
